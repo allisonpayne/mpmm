@@ -3,9 +3,9 @@
 \docType{package}
 \name{mpmm-package}
 \alias{mpmm-package}
-\title{\pkg{mpmm}}
+\title{fit movement persistence mixed-effects models to animal location data}
 \description{
-fit movement persistence mixed-effects models to animal location data
+Fit covariates as linear mixed-effects to latent, time-varying movement persistence (autocorrelation).
 }
 \references{
 Jonsen ID, McMahon CR, Patterson TA, et al. (2019) Movement responses to environment: fast inference of variation among southern elephant seals with a mixed effects model. Ecology. 100(1):e02566 https://doi.org/10.1002/ecy.2566
@@ -16,4 +16,4 @@ mpmm
 \author{
 Ian Jonsen
 }
-\keyword{mpmm}
+\keyword{internal}

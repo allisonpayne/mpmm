@@ -36,7 +36,8 @@
 ##'
 ##' @useDynLib mpmm
 ##' @importFrom lme4 nobars findbars subbars mkReTrms
-##' @importFrom glmmTMB getReStruc splitForm
+##' @importFrom glmmTMB getReStruc
+##' @importFrom reformulas splitForm
 ##' @importFrom Matrix t
 ##' @importFrom dplyr %>% arrange count mutate as_tibble tibble
 ##' @importFrom TMB MakeADFun sdreport newtonOption
