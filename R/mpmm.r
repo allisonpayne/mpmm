@@ -497,6 +497,7 @@ mpmm <- function(
   nrt <- sapply(data.tmb$terms, function(x)
     x$blockSize) %>% sum()
   nl <- sapply(reTrms$flist, nlevels)
+  if (!is.matrix(b)) b <- as.matrix(t(b))
   ret <- matrix(b[, "Estimate"], nl, nrt, byrow = TRUE) %>%
     as.data.frame() %>%
     data.frame(unique(reTrms$flist[[1]]), .) %>%
